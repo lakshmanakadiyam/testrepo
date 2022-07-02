@@ -1,15 +1,23 @@
 public class sum 
 {
-int a, int b;
+
+void sum(int a, int b)
+
+{
+
+int sum ;
+
+sum=a+b;
+
+return a;
+
+}
 public void static main(String args [])
 
 
 {
 
-int a=25, b=25,sum;
 
-sum =a+b;
-
-System.out.println("the sum of the number is" :+sum);
+System.out.println("the sum of the number is" sum(2,3));
 }
 }
